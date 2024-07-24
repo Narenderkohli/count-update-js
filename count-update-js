@@ -1,0 +1,5 @@
+ $.getJSON('/cart.js', function(cart) {
+              var cartCount = cart.item_count;
+              $(".cart-count-bubble").text(cartCount);
+              // console.log(cartCount);
+              });
